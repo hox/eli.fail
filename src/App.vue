@@ -12,10 +12,9 @@
     <div class="footer">
       <span id="copyrightnotice">
         &copy; Elias Hernandez 2019-2020 |
-        <a
-          href="https://github.com/NerdEli/eli.fail/"
-          target="_blank"
-        >Github</a>
+        <a href="https://github.com/NerdEli/eli.fail/" target="_blank"
+          >Github</a
+        >
       </span>
     </div>
   </div>
@@ -27,8 +26,8 @@ import InformationSection from "./components/InformationSection.vue";
 export default {
   name: "App",
   components: {
-    InformationSection
-  }
+    InformationSection,
+  },
 };
 </script>
 
@@ -49,11 +48,11 @@ export default {
     padding-bottom: 2vh;
     #pfp {
       border-radius: 50%;
-      height: 20vh;
+      height: 18vh;
     }
 
     .info {
-      margin: 3vh;
+      margin: 1.5vh 0 3vh 0;
 
       #name {
         font-size: 4vh;
