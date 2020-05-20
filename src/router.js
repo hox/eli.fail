@@ -31,6 +31,10 @@ const redirects = [
     from: "/twitch",
     to: "https://twitch.tv/NerdEli",
   },
+  {
+    from: "/github",
+    to: "https://github.com/NerdEli",
+  },
 ];
 
 const routes = {
