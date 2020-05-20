@@ -11,6 +11,26 @@ const redirects = [
     to: "https://discord.gg/K2tzRPM",
   },
   { from: "/d", to: "https://discord.gg/K2tzRPM" },
+  {
+    from: "/notify",
+    to: "https://notify.me/eli",
+  },
+  {
+    from: "/insta",
+    to: "https://instagram.com/eli.hernando",
+  },
+  {
+    from: "/youtube",
+    to: "https://www.youtube.com/channel/UCefyOC6nvnyjMqBlnVibFLA",
+  },
+  {
+    from: "/twitter",
+    to: "https://twitter.com/ShutUpElii",
+  },
+  {
+    from: "/twitch",
+    to: "https://twitch.tv/NerdEli",
+  },
 ];
 
 const routes = {
