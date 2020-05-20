@@ -35,6 +35,10 @@ const redirects = [
     from: "/github",
     to: "https://github.com/NerdEli",
   },
+  {
+    from: "/snap",
+    to: "https://www.snapchat.com/add/nerdeli05",
+  },
 ];
 
 const routes = {
