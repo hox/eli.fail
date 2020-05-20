@@ -9,6 +9,15 @@
       </div>
       <InformationSection />
     </div>
+    <div class="footer">
+      <span id="copyrightnotice">
+        &copy; Elias Hernandez 2019-2020 |
+        <a
+          href="https://github.com/NerdEli/eli.fail/"
+          target="_blank"
+        >Github</a>
+      </span>
+    </div>
   </div>
 </template>
 
@@ -18,8 +27,8 @@ import InformationSection from "./components/InformationSection.vue";
 export default {
   name: "App",
   components: {
-    InformationSection,
-  },
+    InformationSection
+  }
 };
 </script>
 
@@ -59,6 +68,13 @@ export default {
       }
     }
   }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1vh;
+  }
 }
 </style>
 
@@ -88,5 +104,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: @text-color;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 </style>
