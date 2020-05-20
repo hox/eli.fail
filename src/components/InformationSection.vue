@@ -110,7 +110,7 @@ export default {
     svg:hover {
       transition-duration: 0.2s;
       -webkit-transition-duration: 0.2s;
-      fill: #cfcfcf;
+      fill: #bababa;
       transform: translateY(-0.1vh);
     }
   }
