@@ -13,7 +13,7 @@
       <span id="copyrightnotice">
         &copy; Elias Hernandez 2019-2020 |
         <a href="https://github.com/NerdEli/eli.fail/" target="_blank"
-          >Github</a
+          >Source</a
         >
       </span>
     </div>
