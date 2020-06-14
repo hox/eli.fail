@@ -2,7 +2,7 @@
   <div id="app">
     <div class="bg-image"></div>
     <div class="content">
-      <img id="pfp" src="./assets/pfp.jpg" />
+      <img id="pfp" src="./assets/pfp.jpg" draggable="false" />
       <div class="info">
         <span id="name">Elias Hernandez</span>
         <span id="bio">Backend Developer</span>
